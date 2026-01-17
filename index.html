@@ -640,7 +640,7 @@
                 Responderemos o mais breve possível!
             </p>
             
-            <form id="contactForm">
+            <form id="contactForm" action="https://formsubmit.co/thiagolancelote13@gmail.com" method="POST">
                 <div class="form-group">
                     <label for="nome">SEU NOME *</label>
                     <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
@@ -663,6 +663,10 @@
                               placeholder="Descreva seu projeto, ideias ou como podemos ajudar..." 
                               required></textarea>
                 </div>
+                <input type="hidden" name="_subject" value="Nova mensagem do site VILANIA Produções!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
                 
                 <button type="submit">ENVIAR MENSAGEM</button>
             </form>
@@ -747,3 +751,4 @@
     </script>
 </body>
 </html>
+
