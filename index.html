@@ -540,6 +540,21 @@
             text-shadow: 0 0 2px rgba(255,255,255,0.05);
             box-shadow: 0 0 25px rgba(255,0,51,0.08);
          }
+
+         .spotify-artists{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+            padding:40px 20px;
+            }
+
+            .spotify-artists iframe{
+            flex:1;
+            min-width:300px;
+            max-width:500px;
+            border-radius:12px;
+            }
        
     </style>
 </head>
@@ -691,7 +706,34 @@ Mais do que produzir músicas, transformamos ideias em obras prontas para o mund
                         <h3>Sucata – Y.M.M</h3>
                         </div>
                         </div>
-              </section>
+        </section>
+
+        <section class="spotify-artists">
+
+            <iframe 
+            style="border-radius:12px" 
+            src="https://open.spotify.com/embed/artist/6FQuQKZ4FdYHPNRMYkItxj?utm_source=generator" 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+            </iframe>
+            
+            <iframe 
+            style="border-radius:12px" 
+            src="https://open.spotify.com/embed/artist/6tZNnNU5VChzmrsXYbtndX?utm_source=generator" 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+            </iframe>
+            
+            </section>
+
         <section class="servicos">
             <h2>O QUE FAZEMOS</h2>
             <ul>
@@ -755,7 +797,6 @@ document.getElementById("site").classList.remove("hidden");
 
 </body>
 </html>
-
 
 
 
